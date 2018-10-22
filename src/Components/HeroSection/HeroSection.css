@@ -1,0 +1,51 @@
+.hero_image{
+    background-image: url("https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg");
+    height: 55vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+}
+.hero_info{
+    /* padding-top: 250px; */
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.hero_info h3{
+    font-size: 27px;
+    color: white;
+    font-family: serif;
+    font-style: italic;
+}
+.hero_info h1{
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.hero_info button{
+    height: 68px;
+    width: 208px;
+    background: #fed136;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.services_section{
+    height: 800px;
+}
+@media (min-width:770px){
+    .hero_image{
+        height: 100vh;
+    }
+}
